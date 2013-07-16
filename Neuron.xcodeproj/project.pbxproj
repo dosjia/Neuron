@@ -1,0 +1,469 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7E96076D179583E7004A35F9 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7E96076C179583E7004A35F9 /* UIKit.framework */; };
+		7E96076F179583E7004A35F9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7E96076E179583E7004A35F9 /* Foundation.framework */; };
+		7E960771179583E7004A35F9 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7E960770179583E7004A35F9 /* CoreGraphics.framework */; };
+		7E960777179583E8004A35F9 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7E960775179583E8004A35F9 /* InfoPlist.strings */; };
+		7E960779179583E8004A35F9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E960778179583E8004A35F9 /* main.m */; };
+		7E96077D179583E8004A35F9 /* CBAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E96077C179583E8004A35F9 /* CBAppDelegate.m */; };
+		7E96077F179583E8004A35F9 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 7E96077E179583E8004A35F9 /* Default.png */; };
+		7E960781179583E8004A35F9 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7E960780179583E8004A35F9 /* Default@2x.png */; };
+		7E960783179583E8004A35F9 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7E960782179583E8004A35F9 /* Default-568h@2x.png */; };
+		7E960786179583E8004A35F9 /* CBViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E960785179583E8004A35F9 /* CBViewController.m */; };
+		7E960789179583E8004A35F9 /* CBViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7E960787179583E8004A35F9 /* CBViewController.xib */; };
+		7E960791179583E8004A35F9 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7E960790179583E8004A35F9 /* SenTestingKit.framework */; };
+		7E960792179583E8004A35F9 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7E96076C179583E7004A35F9 /* UIKit.framework */; };
+		7E960793179583E8004A35F9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7E96076E179583E7004A35F9 /* Foundation.framework */; };
+		7E96079B179583E8004A35F9 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7E960799179583E8004A35F9 /* InfoPlist.strings */; };
+		7E96079E179583E8004A35F9 /* NeuronTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E96079D179583E8004A35F9 /* NeuronTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7E960794179583E8004A35F9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7E960761179583E7004A35F9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7E960768179583E7004A35F9;
+			remoteInfo = Neuron;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7E960769179583E7004A35F9 /* Neuron.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Neuron.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7E96076C179583E7004A35F9 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		7E96076E179583E7004A35F9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		7E960770179583E7004A35F9 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		7E960774179583E8004A35F9 /* Neuron-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Neuron-Info.plist"; sourceTree = "<group>"; };
+		7E960776179583E8004A35F9 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		7E960778179583E8004A35F9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7E96077A179583E8004A35F9 /* Neuron-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Neuron-Prefix.pch"; sourceTree = "<group>"; };
+		7E96077B179583E8004A35F9 /* CBAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CBAppDelegate.h; sourceTree = "<group>"; };
+		7E96077C179583E8004A35F9 /* CBAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CBAppDelegate.m; sourceTree = "<group>"; };
+		7E96077E179583E8004A35F9 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		7E960780179583E8004A35F9 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		7E960782179583E8004A35F9 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		7E960784179583E8004A35F9 /* CBViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CBViewController.h; sourceTree = "<group>"; };
+		7E960785179583E8004A35F9 /* CBViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CBViewController.m; sourceTree = "<group>"; };
+		7E960788179583E8004A35F9 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/CBViewController.xib; sourceTree = "<group>"; };
+		7E96078F179583E8004A35F9 /* NeuronTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NeuronTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7E960790179583E8004A35F9 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		7E960798179583E8004A35F9 /* NeuronTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "NeuronTests-Info.plist"; sourceTree = "<group>"; };
+		7E96079A179583E8004A35F9 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		7E96079C179583E8004A35F9 /* NeuronTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NeuronTests.h; sourceTree = "<group>"; };
+		7E96079D179583E8004A35F9 /* NeuronTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NeuronTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7E960766179583E7004A35F9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7E96076D179583E7004A35F9 /* UIKit.framework in Frameworks */,
+				7E96076F179583E7004A35F9 /* Foundation.framework in Frameworks */,
+				7E960771179583E7004A35F9 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7E96078B179583E8004A35F9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7E960791179583E8004A35F9 /* SenTestingKit.framework in Frameworks */,
+				7E960792179583E8004A35F9 /* UIKit.framework in Frameworks */,
+				7E960793179583E8004A35F9 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7E960760179583E7004A35F9 = {
+			isa = PBXGroup;
+			children = (
+				7E960772179583E8004A35F9 /* Neuron */,
+				7E960796179583E8004A35F9 /* NeuronTests */,
+				7E96076B179583E7004A35F9 /* Frameworks */,
+				7E96076A179583E7004A35F9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7E96076A179583E7004A35F9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7E960769179583E7004A35F9 /* Neuron.app */,
+				7E96078F179583E8004A35F9 /* NeuronTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7E96076B179583E7004A35F9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7E96076C179583E7004A35F9 /* UIKit.framework */,
+				7E96076E179583E7004A35F9 /* Foundation.framework */,
+				7E960770179583E7004A35F9 /* CoreGraphics.framework */,
+				7E960790179583E8004A35F9 /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7E960772179583E8004A35F9 /* Neuron */ = {
+			isa = PBXGroup;
+			children = (
+				7E96077B179583E8004A35F9 /* CBAppDelegate.h */,
+				7E96077C179583E8004A35F9 /* CBAppDelegate.m */,
+				7E960784179583E8004A35F9 /* CBViewController.h */,
+				7E960785179583E8004A35F9 /* CBViewController.m */,
+				7E960787179583E8004A35F9 /* CBViewController.xib */,
+				7E960773179583E8004A35F9 /* Supporting Files */,
+			);
+			path = Neuron;
+			sourceTree = "<group>";
+		};
+		7E960773179583E8004A35F9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7E960774179583E8004A35F9 /* Neuron-Info.plist */,
+				7E960775179583E8004A35F9 /* InfoPlist.strings */,
+				7E960778179583E8004A35F9 /* main.m */,
+				7E96077A179583E8004A35F9 /* Neuron-Prefix.pch */,
+				7E96077E179583E8004A35F9 /* Default.png */,
+				7E960780179583E8004A35F9 /* Default@2x.png */,
+				7E960782179583E8004A35F9 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		7E960796179583E8004A35F9 /* NeuronTests */ = {
+			isa = PBXGroup;
+			children = (
+				7E96079C179583E8004A35F9 /* NeuronTests.h */,
+				7E96079D179583E8004A35F9 /* NeuronTests.m */,
+				7E960797179583E8004A35F9 /* Supporting Files */,
+			);
+			path = NeuronTests;
+			sourceTree = "<group>";
+		};
+		7E960797179583E8004A35F9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7E960798179583E8004A35F9 /* NeuronTests-Info.plist */,
+				7E960799179583E8004A35F9 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7E960768179583E7004A35F9 /* Neuron */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7E9607A1179583E8004A35F9 /* Build configuration list for PBXNativeTarget "Neuron" */;
+			buildPhases = (
+				7E960765179583E7004A35F9 /* Sources */,
+				7E960766179583E7004A35F9 /* Frameworks */,
+				7E960767179583E7004A35F9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Neuron;
+			productName = Neuron;
+			productReference = 7E960769179583E7004A35F9 /* Neuron.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7E96078E179583E8004A35F9 /* NeuronTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7E9607A4179583E8004A35F9 /* Build configuration list for PBXNativeTarget "NeuronTests" */;
+			buildPhases = (
+				7E96078A179583E8004A35F9 /* Sources */,
+				7E96078B179583E8004A35F9 /* Frameworks */,
+				7E96078C179583E8004A35F9 /* Resources */,
+				7E96078D179583E8004A35F9 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7E960795179583E8004A35F9 /* PBXTargetDependency */,
+			);
+			name = NeuronTests;
+			productName = NeuronTests;
+			productReference = 7E96078F179583E8004A35F9 /* NeuronTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7E960761179583E7004A35F9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = CB;
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "赵 佳";
+			};
+			buildConfigurationList = 7E960764179583E7004A35F9 /* Build configuration list for PBXProject "Neuron" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7E960760179583E7004A35F9;
+			productRefGroup = 7E96076A179583E7004A35F9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7E960768179583E7004A35F9 /* Neuron */,
+				7E96078E179583E8004A35F9 /* NeuronTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7E960767179583E7004A35F9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7E960777179583E8004A35F9 /* InfoPlist.strings in Resources */,
+				7E96077F179583E8004A35F9 /* Default.png in Resources */,
+				7E960781179583E8004A35F9 /* Default@2x.png in Resources */,
+				7E960783179583E8004A35F9 /* Default-568h@2x.png in Resources */,
+				7E960789179583E8004A35F9 /* CBViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7E96078C179583E8004A35F9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7E96079B179583E8004A35F9 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		7E96078D179583E8004A35F9 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7E960765179583E7004A35F9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7E960779179583E8004A35F9 /* main.m in Sources */,
+				7E96077D179583E8004A35F9 /* CBAppDelegate.m in Sources */,
+				7E960786179583E8004A35F9 /* CBViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7E96078A179583E8004A35F9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7E96079E179583E8004A35F9 /* NeuronTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7E960795179583E8004A35F9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7E960768179583E7004A35F9 /* Neuron */;
+			targetProxy = 7E960794179583E8004A35F9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		7E960775179583E8004A35F9 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7E960776179583E8004A35F9 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		7E960787179583E8004A35F9 /* CBViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7E960788179583E8004A35F9 /* en */,
+			);
+			name = CBViewController.xib;
+			sourceTree = "<group>";
+		};
+		7E960799179583E8004A35F9 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7E96079A179583E8004A35F9 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7E96079F179583E8004A35F9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		7E9607A0179583E8004A35F9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7E9607A2179583E8004A35F9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Neuron/Neuron-Prefix.pch";
+				INFOPLIST_FILE = "Neuron/Neuron-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		7E9607A3179583E8004A35F9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Neuron/Neuron-Prefix.pch";
+				INFOPLIST_FILE = "Neuron/Neuron-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		7E9607A5179583E8004A35F9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Neuron.app/Neuron";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Neuron/Neuron-Prefix.pch";
+				INFOPLIST_FILE = "NeuronTests/NeuronTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		7E9607A6179583E8004A35F9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Neuron.app/Neuron";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Neuron/Neuron-Prefix.pch";
+				INFOPLIST_FILE = "NeuronTests/NeuronTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7E960764179583E7004A35F9 /* Build configuration list for PBXProject "Neuron" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7E96079F179583E8004A35F9 /* Debug */,
+				7E9607A0179583E8004A35F9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7E9607A1179583E8004A35F9 /* Build configuration list for PBXNativeTarget "Neuron" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7E9607A2179583E8004A35F9 /* Debug */,
+				7E9607A3179583E8004A35F9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		7E9607A4179583E8004A35F9 /* Build configuration list for PBXNativeTarget "NeuronTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7E9607A5179583E8004A35F9 /* Debug */,
+				7E9607A6179583E8004A35F9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7E960761179583E7004A35F9 /* Project object */;
+}
