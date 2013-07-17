@@ -9,5 +9,14 @@
 #import <UIKit/UIKit.h>
 
 @interface CBViewController : UIViewController
-
+{
+    IBOutlet UITextField *username;
+    IBOutlet UITextField *password;
+    IBOutlet UILabel *warn;
+}
+@property(retain) UITextField *username;
+@property(retain) UITextField *password;
+@property(retain) UILabel *warn;
+-(IBAction)login:(id)sender;
+-(IBAction)resign:(id)sender;
 @end
