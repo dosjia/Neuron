@@ -8,7 +8,7 @@
 
 #import "CBAppDelegate.h"
 
-#import "CBViewController.h"
+#import "CBMainViewController.h"
 
 @implementation CBAppDelegate
 
@@ -16,8 +16,10 @@
 {
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     // Override point for customization after application launch.
-    self.viewController = [[CBViewController alloc] initWithNibName:@"CBViewController" bundle:nil];
+    NSLog(@"iasidasid");
+    self.viewController = [[CBMainViewController alloc] initWithNibName:@"CBMainViewController" bundle:nil];
     self.window.rootViewController = self.viewController;
+    
     [self.window makeKeyAndVisible];
     return YES;
 }

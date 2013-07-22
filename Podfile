@@ -1,3 +1,5 @@
-platform :ios
+platform :'ios','5.0'
 pod 'JSONKit'
 pod 'AFNetworking', '0.9.1'
+pod 'MBProgressHUD', '~> 0.7'
+pod 'QuickDialog', '0.8'
