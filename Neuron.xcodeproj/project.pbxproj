@@ -7,10 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7E94015F179E238000D4D006 /* CBAccountDetailControllerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E94015E179E238000D4D006 /* CBAccountDetailControllerViewController.m */; };
 		7E942782179AD9E7008AF0DF /* icon.PNG in Resources */ = {isa = PBXBuildFile; fileRef = 7E942781179AD9E7008AF0DF /* icon.PNG */; };
 		7E942784179ADADC008AF0DF /* mail.PNG in Resources */ = {isa = PBXBuildFile; fileRef = 7E942783179ADADC008AF0DF /* mail.PNG */; };
 		7E942788179ADC37008AF0DF /* CBMailContentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E942786179ADC37008AF0DF /* CBMailContentViewController.m */; };
-		7E942789179ADC37008AF0DF /* CBMailContentViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7E942787179ADC37008AF0DF /* CBMailContentViewController.xib */; };
 		7E948DCA1799800200B6C3BC /* CBAccountController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E948DC81799800200B6C3BC /* CBAccountController.m */; };
 		7E948DCB1799800200B6C3BC /* CBAccountController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7E948DC91799800200B6C3BC /* CBAccountController.xib */; };
 		7E948DD11799807D00B6C3BC /* CBMailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E948DCF1799807D00B6C3BC /* CBMailViewController.m */; };
@@ -35,10 +35,12 @@
 		7E96079B179583E8004A35F9 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7E960799179583E8004A35F9 /* InfoPlist.strings */; };
 		7E96079E179583E8004A35F9 /* NeuronTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E96079D179583E8004A35F9 /* NeuronTests.m */; };
 		7E965EA9179A241A00002A7D /* CBMail.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E965EA8179A241A00002A7D /* CBMail.m */; };
+		7E968A19179D6E0E001E034D /* LoginController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E968A18179D6E0E001E034D /* LoginController.m */; };
+		7E968A1C179D6F0C001E034D /* CBLoginInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E968A1B179D6F0C001E034D /* CBLoginInfo.m */; };
+		7E968A1F179D8577001E034D /* CBAboutController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E968A1E179D8576001E034D /* CBAboutController.m */; };
 		7EC11DE21798288500C79BA7 /* CBCommandCenterController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EC11DE01798288500C79BA7 /* CBCommandCenterController.m */; };
 		7EC11DE31798288500C79BA7 /* CBCommandCenterController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7EC11DE11798288500C79BA7 /* CBCommandCenterController.xib */; };
 		7EC11DF0179843EB00C79BA7 /* CBMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EC11DEE179843EB00C79BA7 /* CBMainViewController.m */; };
-		7EC11DF1179843EB00C79BA7 /* CBMainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7EC11DEF179843EB00C79BA7 /* CBMainViewController.xib */; };
 		F926918DF45448DBAF4BE258 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 39A747297F6749F7B1FC3D33 /* libPods.a */; };
 /* End PBXBuildFile section */
 
@@ -54,11 +56,12 @@
 
 /* Begin PBXFileReference section */
 		39A747297F6749F7B1FC3D33 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		7E94015D179E238000D4D006 /* CBAccountDetailControllerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CBAccountDetailControllerViewController.h; sourceTree = "<group>"; };
+		7E94015E179E238000D4D006 /* CBAccountDetailControllerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CBAccountDetailControllerViewController.m; sourceTree = "<group>"; };
 		7E942781179AD9E7008AF0DF /* icon.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.PNG; sourceTree = "<group>"; };
 		7E942783179ADADC008AF0DF /* mail.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mail.PNG; sourceTree = "<group>"; };
 		7E942785179ADC37008AF0DF /* CBMailContentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CBMailContentViewController.h; sourceTree = "<group>"; };
 		7E942786179ADC37008AF0DF /* CBMailContentViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CBMailContentViewController.m; sourceTree = "<group>"; };
-		7E942787179ADC37008AF0DF /* CBMailContentViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CBMailContentViewController.xib; sourceTree = "<group>"; };
 		7E948DC71799800200B6C3BC /* CBAccountController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CBAccountController.h; path = account/CBAccountController.h; sourceTree = "<group>"; };
 		7E948DC81799800200B6C3BC /* CBAccountController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CBAccountController.m; path = account/CBAccountController.m; sourceTree = "<group>"; };
 		7E948DC91799800200B6C3BC /* CBAccountController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = CBAccountController.xib; path = account/CBAccountController.xib; sourceTree = "<group>"; };
@@ -93,12 +96,17 @@
 		7E96079D179583E8004A35F9 /* NeuronTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NeuronTests.m; sourceTree = "<group>"; };
 		7E965EA7179A241A00002A7D /* CBMail.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CBMail.h; sourceTree = "<group>"; };
 		7E965EA8179A241A00002A7D /* CBMail.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CBMail.m; sourceTree = "<group>"; };
+		7E968A17179D6E0E001E034D /* LoginController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginController.h; sourceTree = "<group>"; };
+		7E968A18179D6E0E001E034D /* LoginController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginController.m; sourceTree = "<group>"; };
+		7E968A1A179D6F0C001E034D /* CBLoginInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CBLoginInfo.h; sourceTree = "<group>"; };
+		7E968A1B179D6F0C001E034D /* CBLoginInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CBLoginInfo.m; sourceTree = "<group>"; };
+		7E968A1D179D8576001E034D /* CBAboutController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CBAboutController.h; sourceTree = "<group>"; };
+		7E968A1E179D8576001E034D /* CBAboutController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CBAboutController.m; sourceTree = "<group>"; };
 		7EC11DDF1798288500C79BA7 /* CBCommandCenterController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CBCommandCenterController.h; path = ../CBCommandCenterController.h; sourceTree = "<group>"; };
 		7EC11DE01798288500C79BA7 /* CBCommandCenterController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CBCommandCenterController.m; path = ../CBCommandCenterController.m; sourceTree = "<group>"; };
 		7EC11DE11798288500C79BA7 /* CBCommandCenterController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = CBCommandCenterController.xib; path = ../CBCommandCenterController.xib; sourceTree = "<group>"; };
 		7EC11DED179843EB00C79BA7 /* CBMainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CBMainViewController.h; sourceTree = "<group>"; };
 		7EC11DEE179843EB00C79BA7 /* CBMainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CBMainViewController.m; sourceTree = "<group>"; };
-		7EC11DEF179843EB00C79BA7 /* CBMainViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CBMainViewController.xib; sourceTree = "<group>"; };
 		8E61AA07F9D54B33A7E8058D /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
@@ -135,6 +143,8 @@
 				7E948DC91799800200B6C3BC /* CBAccountController.xib */,
 				7E94FA2C179B6337009F5B9F /* CBAccount.h */,
 				7E94FA2D179B6337009F5B9F /* CBAccount.m */,
+				7E94015D179E238000D4D006 /* CBAccountDetailControllerViewController.h */,
+				7E94015E179E238000D4D006 /* CBAccountDetailControllerViewController.m */,
 			);
 			name = account;
 			sourceTree = "<group>";
@@ -149,7 +159,6 @@
 				7E965EA8179A241A00002A7D /* CBMail.m */,
 				7E942785179ADC37008AF0DF /* CBMailContentViewController.h */,
 				7E942786179ADC37008AF0DF /* CBMailContentViewController.m */,
-				7E942787179ADC37008AF0DF /* CBMailContentViewController.xib */,
 			);
 			name = mail;
 			sourceTree = "<group>";
@@ -160,6 +169,12 @@
 				7E960784179583E8004A35F9 /* CBViewController.h */,
 				7E960785179583E8004A35F9 /* CBViewController.m */,
 				7E960787179583E8004A35F9 /* CBViewController.xib */,
+				7E968A17179D6E0E001E034D /* LoginController.h */,
+				7E968A18179D6E0E001E034D /* LoginController.m */,
+				7E968A1A179D6F0C001E034D /* CBLoginInfo.h */,
+				7E968A1B179D6F0C001E034D /* CBLoginInfo.m */,
+				7E968A1D179D8576001E034D /* CBAboutController.h */,
+				7E968A1E179D8576001E034D /* CBAboutController.m */,
 			);
 			name = login;
 			sourceTree = "<group>";
@@ -233,7 +248,6 @@
 				7E948DD31799851C00B6C3BC /* login */,
 				7EC11DED179843EB00C79BA7 /* CBMainViewController.h */,
 				7EC11DEE179843EB00C79BA7 /* CBMainViewController.m */,
-				7EC11DEF179843EB00C79BA7 /* CBMainViewController.xib */,
 				7E96077B179583E8004A35F9 /* CBAppDelegate.h */,
 				7E96077C179583E8004A35F9 /* CBAppDelegate.m */,
 				7E960773179583E8004A35F9 /* Supporting Files */,
@@ -356,12 +370,10 @@
 				7E960783179583E8004A35F9 /* Default-568h@2x.png in Resources */,
 				7E960789179583E8004A35F9 /* CBViewController.xib in Resources */,
 				7EC11DE31798288500C79BA7 /* CBCommandCenterController.xib in Resources */,
-				7EC11DF1179843EB00C79BA7 /* CBMainViewController.xib in Resources */,
 				7E948DCB1799800200B6C3BC /* CBAccountController.xib in Resources */,
 				7E948DD21799807D00B6C3BC /* CBMailViewController.xib in Resources */,
 				7E942782179AD9E7008AF0DF /* icon.PNG in Resources */,
 				7E942784179ADADC008AF0DF /* mail.PNG in Resources */,
-				7E942789179ADC37008AF0DF /* CBMailContentViewController.xib in Resources */,
 				7E94FA86179BE788009F5B9F /* first.png in Resources */,
 				7E94FA87179BE788009F5B9F /* first@2x.png in Resources */,
 			);
@@ -438,6 +450,10 @@
 				7E965EA9179A241A00002A7D /* CBMail.m in Sources */,
 				7E942788179ADC37008AF0DF /* CBMailContentViewController.m in Sources */,
 				7E94FA2E179B6337009F5B9F /* CBAccount.m in Sources */,
+				7E968A19179D6E0E001E034D /* LoginController.m in Sources */,
+				7E968A1C179D6F0C001E034D /* CBLoginInfo.m in Sources */,
+				7E968A1F179D8577001E034D /* CBAboutController.m in Sources */,
+				7E94015F179E238000D4D006 /* CBAccountDetailControllerViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

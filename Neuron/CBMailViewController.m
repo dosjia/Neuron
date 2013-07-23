@@ -96,9 +96,9 @@
 //}
 
 -(void)tableView:(UITableView *)tableView accessoryButtonTappedForRowWithIndexPath:(NSIndexPath *)indexPath{
-    CBMailContentViewController *mailContentController = [[CBMailContentViewController alloc] initWithNibName:@"CBMailContentViewController" bundle:nil];
+    CBMailContentViewController *mailContentController = [[CBMailContentViewController alloc] initMail:[[mailList objectAtIndex:indexPath.section] objectAtIndex:indexPath.row]];
     mailContentController.title = @"Mail Content";
-    mailContentController.mail= [[mailList objectAtIndex:indexPath.section] objectAtIndex:indexPath.row];
+    //mailContentController.mail= [[mailList objectAtIndex:indexPath.section] objectAtIndex:indexPath.row];
 	[self.navigationController pushViewController:mailContentController animated:YES];
 
 }
@@ -119,6 +119,7 @@
         }
         
         [tableView deleteRowsAtIndexPaths:[NSArray arrayWithObjects:indexPath,nil] withRowAnimation:UITableViewRowAnimationFade];
+        [tableView reloadData];
         [tableView setEditing:NO];
     }
 }

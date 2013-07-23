@@ -8,6 +8,8 @@
 
 #import "CBAccountController.h"
 #import "CBAccount.h"
+#import "LoginController.h"
+#import "CBAccountDetailControllerViewController.h"
 
 @implementation CBAccountController
 
@@ -102,4 +104,9 @@
     return cell;
 }
 
+-(void)tableView:(UITableView *)tableView accessoryButtonTappedForRowWithIndexPath:(NSIndexPath *)indexPath{
+    CBAccountDetailControllerViewController *accountDetailController = [[CBAccountDetailControllerViewController alloc] initAccount:[[accountList objectAtIndex:indexPath.section] objectAtIndex:indexPath.row]];
+	[self.navigationController pushViewController:accountDetailController animated:YES];
+    
+}
 @end

@@ -8,12 +8,13 @@
 
 #import <UIKit/UIKit.h>
 #import "CBMail.h"
-@interface CBMailContentViewController : UIViewController{
+#import <QuickDialog/QuickDialog.h>
+
+@interface CBMailContentViewController : QuickDialogController <QuickDialogStyleProvider, QuickDialogEntryElementDelegate> {
     CBMail *mail;
-    IBOutlet UITableViewCell *cell;
-    IBOutlet UITextView *mailContent;
 }
+
 @property CBMail *mail;
-@property UITableViewCell *cell;
-@property UITextView *mailContent;
+- (QRootElement *)createForm ;
+-(id)initMail:(CBMail *) mail;
 @end

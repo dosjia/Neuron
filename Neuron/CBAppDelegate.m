@@ -9,17 +9,19 @@
 #import "CBAppDelegate.h"
 
 #import "CBMainViewController.h"
-
+#import "LoginController.h"
 @implementation CBAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     // Override point for customization after application launch.
-    NSLog(@"iasidasid");
-    self.viewController = [[CBMainViewController alloc] initWithNibName:@"CBMainViewController" bundle:nil];
+    self.viewController = [[CBMainViewController alloc] init];
     self.window.rootViewController = self.viewController;
-    
+//    LoginController *loginController = (LoginController *) [[LoginController alloc] init];
+//    UINavigationController *nav=[[UINavigationController alloc]initWithRootViewController:loginController];
+//    self.viewController=nav;
+//    self.window.rootViewController=self.viewController;
     [self.window makeKeyAndVisible];
     return YES;
 }

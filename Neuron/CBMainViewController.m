@@ -12,6 +12,7 @@
 #import "CBAccountController.h"
 #import "CBMailViewController.h"
 #import <QuickDialog/QuickDialog.h>
+#import "LoginController.h"
 @interface CBMainViewController ()
 
 @end
@@ -37,19 +38,44 @@
     NSLog(@"Before init");
     CBCommandCenterController *tabBarController=[[CBCommandCenterController alloc] initWithNibName:@"CBCommandCenterController" bundle:nil];
     //NSArray *controllerlist=[NSArray arrayWithObjects: newController,nil];
-    
+    //LoginController *tabBarController = (LoginController *) [[LoginController alloc] init];
     
     [self addChildViewController:tabBarController];
     NSLog(@"%d",self.childViewControllers.count);
-    CBViewController *loginController=[[CBViewController alloc] initWithNibName:@"CBViewController" bundle:nil];
-    //CBViewController *loginController=[[CBViewController alloc] init];
-    [self addChildViewController:loginController];
+    //CBViewController *loginController=[[CBViewController alloc] initWithNibName:@"CBViewController" bundle:nil];
+    
+    QRootElement *root=[LoginController createLoginForm];
+    LoginController *loginController = (LoginController *) [[LoginController alloc] init];
+    UINavigationController *navController=[[UINavigationController alloc]initWithRootViewController:loginController];
+    navController;
+    [self addChildViewController:navController];
     NSLog(@"%d",self.childViewControllers.count);
+    NSLog(@"%f",[navController.view frame].size.height);
+    NSLog(@"%f",[navController.view frame].size.width);
+    NSLog(@"%f",[navController.view frame].origin.x);
+    NSLog(@"%f",[navController.view frame].origin.y);
+    NSLog(@"%f",[self.view frame].size.height);
+    NSLog(@"%f",[self.view frame].size.width);
+    NSLog(@"%f",[self.view frame].origin.x);
+    NSLog(@"%f",[self.view frame].origin.y);
+    [navController.view setFrame:CGRectMake(0, 0, 320, 548)];
+//    [navController.view setBounds:CGRectMake(0, 0, 320, 540)];
+//    [navController.toolbar setBounds:CGRectMake(-130, 0, 320, 44)];
+//    NSLog(@"===%f",[navController.toolbar bounds].size.height);
+//    NSLog(@"===%f",[navController.toolbar bounds].size.width);
+//    NSLog(@"===%f",[navController.toolbar bounds].origin.x);
+//    NSLog(@"===%f",[navController.toolbar bounds].origin.y);
+    //navController.
+    NSLog(@"%f",[navController.toolbar frame].size.height);
+    NSLog(@"%f",[navController.toolbar frame].size.width);
+    NSLog(@"%f",[navController.toolbar frame].origin.x);
+    NSLog(@"%f",[navController.toolbar frame].origin.y);
+    NSLog(@"%f",[self.view frame].size.height);
+    NSLog(@"%f",[self.view frame].size.width);
+    NSLog(@"%f",[self.view frame].origin.x);
+    NSLog(@"%f",[self.view frame].origin.y);
+    [self.view addSubview:navController.view];
     
-    //[[QuickDialogController alloc] controllerForRoot:<#(QRootElement *)#>];
-    
-    [self.view addSubview:loginController.view];
-
 }
 
 - (void)didReceiveMemoryWarning
